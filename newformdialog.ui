@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>newformdialog</class>
+ <widget class="QDialog" name="newformdialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>220</width>
+    <height>220</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>220</width>
+    <height>220</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>220</width>
+    <height>220</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Bauhaus 93</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>New Sprite</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog 
+{
+background-color: #404040;
+}</string>
+  </property>
+  <widget class="QLabel" name="height_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bauhaus 93</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+color:#00ffff;
+}</string>
+   </property>
+   <property name="text">
+    <string>Height In Pixels (1 - 250)</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="background_color_group">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox
+{
+	border: 1px solid #00ffff;
+	background-color: #262626;
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QRadioButton" name="white_background_button">
+      <property name="minimumSize">
+       <size>
+        <width>60</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bauhaus 93</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton
+{
+color:#00ffff;
+}</string>
+      </property>
+      <property name="text">
+       <string>White</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="black_background_button">
+      <property name="minimumSize">
+       <size>
+        <width>60</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bauhaus 93</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton
+{
+color:#00ffff;
+}</string>
+      </property>
+      <property name="text">
+       <string>Black</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="no_background_color">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>60</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Bauhaus 93</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton
+{
+color:#00ffff;
+}</string>
+      </property>
+      <property name="text">
+       <string>None</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="width_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bauhaus 93</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+color:#00ffff;
+}</string>
+   </property>
+   <property name="text">
+    <string>Width In Pixels (1 - 250)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="width_textbox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bauhaus 93</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#width_textbox
+{
+border: 1px solid #00ffff;
+background: #262626;
+color: #00ffff;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="height_textbox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bauhaus 93</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit#height_textbox
+{
+border: 1px solid #00ffff;
+background: #262626;
+color: #00ffff;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bauhaus 93</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+	color: #00ffff;
+}</string>
+   </property>
+   <property name="text">
+    <string>Background Color</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel_button">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>180</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#cancel_button{
+background-color: transparent;
+border-image:url(:/buttons/Button Images/CancelButtonIdle.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#cancel_button:pressed
+{
+border-image:url(:/buttons/Button Images/CancelButtonPressed.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="okay_button">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>180</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#okay_button{
+background-color: transparent;
+border-image:url(:/buttons/Button Images/OkayButtonIdle.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#okay_button:pressed
+{
+border-image:url(:/buttons/Button Images/OkayButtonPressed.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

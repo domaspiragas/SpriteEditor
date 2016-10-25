@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/buttons">
+        <file>Button Images/EllipseButtonIdle.png</file>
+        <file>Button Images/EllipseButtonPressed.png</file>
+        <file>Button Images/EraserButtonIdle.png</file>
+        <file>Button Images/EraserButtonPressed.png</file>
+        <file>Button Images/LineButtonIdle.png</file>
+        <file>Button Images/LineButtonPressed.png</file>
+        <file>Button Images/PaintBucketButtonIdle.png</file>
+        <file>Button Images/PaintBucketButtonPressed.png</file>
+        <file>Button Images/PencilButtonIdle.png</file>
+        <file>Button Images/PencilButtonPressed.png</file>
+        <file>Button Images/RectangleButtonIdle.png</file>
+        <file>Button Images/RectangleButtonPressed.png</file>
+        <file>Button Images/SprayButtonIdle.png</file>
+        <file>Button Images/SprayButtonPressed.png</file>
+        <file>Button Images/ZoomInButtonIdle.png</file>
+        <file>Button Images/ZoomInButtonPressed.png</file>
+        <file>Button Images/ZoomOutButtonIdle.png</file>
+        <file>Button Images/ZoomOutButtonPressed.png</file>
+        <file>Button Images/DuplicateButtonIdle.png</file>
+        <file>Button Images/DuplicateButtonPressed.png</file>
+        <file>Button Images/CancelButtonIdle.png</file>
+        <file>Button Images/CancelButtonPressed.png</file>
+        <file>Button Images/OkayButtonIdle.png</file>
+        <file>Button Images/OkayButtonPressed.png</file>
+        <file>Button Images/ReverseButtonIdle.png</file>
+        <file>Button Images/ReverseButtonPressed.png</file>
+    </qresource>
+</RCC>
